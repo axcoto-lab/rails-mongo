@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  namespace :api do
+    resources :podcasts
+  end
+
   resources :podcasts
   resources :people
   # The priority is based upon order of creation: first created -> highest priority.
