@@ -43,6 +43,11 @@ group :development do
   gem 'spring'
 end
 
+group :test do
+  gem "mocha"
+  gem 'webmock'
+end
+
 gem 'sqlite3'
 gem 'mongoid', github: 'mongoid/mongoid'
 #gem 'bson_ext'
