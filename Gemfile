@@ -44,5 +44,5 @@ group :development do
 end
 
 gem 'sqlite3'
-gem 'mongoid'
-gem 'bson_ext'
+gem 'mongoid', github: 'mongoid/mongoid'
+#gem 'bson_ext'
